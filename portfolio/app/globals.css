@@ -1,0 +1,251 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  cursor: none !important;
+  font-family: 'Poppins', sans-serif;
+}
+.text-hidden {
+  opacity: 0;
+  display: none;
+}
+
+.icon-container:hover  .text-hidden {
+  opacity: 1;
+  display: inline-block;
+  animation: fadeInText 0.5s ease forwards; /* Adjusted animation duration */
+}
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+    transform: translateY(-10px); /* Optional: You can add any other animation properties here */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes borderAnimation {
+  0% { border-color: #3f4551; }
+  50% { border-color: #f59e0b; }
+  100% { border-color: #f59e0b; }
+}
+
+/* Apply animation on hover */
+.hovered:hover .borde {
+  animation: borderAnimation 1s linear forwards;
+}
+
+.con{
+  color: rgba(21, 27, 41, 0.502);
+}
+
+.servicehover:hover .text {
+  color: #ffc107;
+  transition: all .4s ease; 
+}
+.servicehover:hover .borderchangecolour {
+  color: #ffc107;
+  transition: all .4s ease; 
+  
+}
+
+.servicehover:hover .something{
+ border-color: #ffc107 !important;
+ transition: all .4s ease; 
+}
+
+.onbuttonhover:hover{
+  box-shadow: rgba(255, 255, 0, 0.35) 0px 5px 15px;
+ 
+}
+.backimg{
+  background-image: url('/public/backimg.jpg'); /* Path to your background image */
+  background-size: cover; /* Adjust image size */
+  background-position: center; /* Center the image */
+  height: 300px;
+}
+
+.one1:hover .one2{
+  color: #E75000;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+
+}
+.two1:hover .two2{
+  color: #0477C1;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+
+}
+.three1:hover .three2{
+  color: #F6E11B;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+
+}
+.four1:hover .four2{
+  color: #05B4D9;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+
+}
+.five1:hover .five2{
+  color: #1B99EC;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+
+}
+.six1:hover .six2{
+  color: #417096;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+
+}
+.seven1:hover .seven2{
+  color: #01ADC0;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+
+}
+.eight1:hover .eight2{
+  color: #7C4DFF;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+
+}
+
+.nine1:hover .nine2{
+  color: #6EAD5F;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+.ten1:hover .ten2{
+  color: #4961E4;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.eleven1:hover .eleven2{
+  color: #F40057;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.twelve1:hover .twelve2{
+  color: #B726FB;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.container {
+  width: 100%;
+}
+
+.step {
+  
+  padding: 10px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  
+  background-color: cream;
+}
+
+.v-stepper {
+  position: relative;
+/*   visibility: visible; */
+}
+
+
+/* regular step */
+.step .circle {
+  background-color: #070E1B;
+  border: 3px solid #232935;
+  border-radius: 100%;
+  width: 30px;    /* +6 for border */
+  height: 30px;
+  display: inline-block;
+}
+
+.step .line {
+    top: 27px;
+  left: 13px;
+/*   height: 120px; */
+  height: 100%;
+    
+    position: absolute;
+    border-left: 3px solid #1C222E;
+}
+
+.step.completed .circle {
+  visibility: visible;
+  background-color: #070E1B;
+  border-color:#232935;
+}
+
+.step.completed .line {
+  border-left: 3px solid #232935;
+}
+
+.step.active .circle {
+visibility: visible;
+  border-color: #232935;
+}
+
+.step.empty .circle {
+    visibility: hidden;
+}
+
+.step.empty .line {
+/*     visibility: hidden; */
+/*   height: 150%; */
+  top: 0;
+  height: 150%;
+}
+
+
+.step:last-child .line {
+  border-left: 3px solid #070E1B;
+  z-index: -1; /* behind the circle to completely hide */
+}
+
+.content {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+.imageContainer {
+  animation: updown 3s linear infinite;
+}
+
+
+
+
