@@ -32,8 +32,8 @@ const About = () => {
               <p className='text-[#FFFFFF] text-[1.875rem] leading-[2.25rem] mb-[0.4rem]'>Hello! I'm Shahid Nawaz</p>
               <p className='text-[#FFC107] text-[1.5rem] leading-10 mb-[0.4rem]'>MERN Stack Developer</p>
               <p className='text-[#a9adb8] text-justify text-[15px] leading-[1.75] xl:leading-[2] mb-[0.4rem]'>I am an experienced React developer with a strong understanding of API's, Redux Toolkit, MUI, Tailwind and Node.js. I excel at developing frontend web applications using JavaScript, HTML, CSS, and Git. With my attention to detail and passion for collaboration, I consistently deliver high-quality software solutions that meet business requirements and enhance the user experience.</p>
-              <p className='text-[#a9adb8] text-[1rem] mb-[0.4rem]'>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fa1694701@gmail.com</p>
-              <p className='text-[#a9adb8] text-[1rem] mb-[0.4rem]'>From:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Faisalabad, Pakistan</p>
+              <p className='text-[#a9adb8] text-[1rem] mb-[0.4rem]'>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; shahidnawaz.edu.pk@gmail.com</p>
+              <p className='text-[#a9adb8] text-[1rem] mb-[0.4rem]'>From:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Multan, Pakistan</p>
               <p className='text-[#a9adb8] text-[1rem] mb-[1.4rem]'>Language:&nbsp;&nbsp;&nbsp;&nbsp;English, Urdu, Panjabi</p>
               <button onClick={onOpenPDF} className="bg-yellow-400 onbuttonhover lg:mb-[7rem] mb-[2rem] bg-opacity-95  text-black text-[1rem] py-[12px] px-[2rem] rounded-full">
                 Download CV

@@ -27,7 +27,7 @@ const Resume = () => {
                 <motion.div variants={fadeIn("up",0.2)} initial="hidden" whileInView={"show"} viewport={{once:false,amount:0.7}} className="content">
                   <p className="text-[#ffc107] text-[24px] font-normal mb-[10px]">Bachelor of Computer Science</p>
                   <p className="text-[#a9adb8] text-[18px] mb-[10px]">2019-2023</p>
-                  <p className="text-[#fff] text-[20px] font-normal mb-[10px]">GC Univerisity Faisalabad</p>
+                  <p className="text-[#fff] text-[20px] font-normal mb-[10px]">COMSATS University Islamabad</p>
                 </motion.div>
 
               </div>
@@ -45,7 +45,7 @@ const Resume = () => {
                 <motion.div variants={fadeIn("up",0.2)} initial="hidden" whileInView={"show"} viewport={{once:false,amount:0.7}} className="content">
                   <p className="text-[#ffc107] text-[24px] font-normal mb-[10px]">Intermediate (ICS)</p>
                   <p className="text-[#a9adb8] text-[18px] mb-[10px]">2017-2019</p>
-                  <p className="text-[#fff] text-[20px] font-normal mb-[10px]">Govt MC high school kotwali road</p>
+                  <p className="text-[#fff] text-[20px] font-normal mb-[10px]">Aspire Group of Colleges</p>
                 </motion.div>
               </div>
 
@@ -65,7 +65,7 @@ const Resume = () => {
                 <div className="content">
                   <p className="text-[#ffc107] text-[24px] font-normal mb-[10px]">Matric</p>
                   <p className="text-[#a9adb8] text-[18px] mb-[10px]">2015-2017</p>
-                  <p className="text-[#fff] text-[20px] font-normal mb-[10px]">Govt MC high school Ghulamabad</p>
+                  <p className="text-[#fff] text-[20px] font-normal mb-[10px]">Govt High school Sargana</p>
 
                 </div>
               </div>
