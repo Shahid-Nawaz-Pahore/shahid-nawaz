@@ -22,13 +22,13 @@ const Contact = () => {
             className="text-white text-[1.875rem] leading-normal"
             style={{ fontFamily: "Poppins, sans-serif" }}
           >
-            Let's Chat.
+            Let&apos;s Chat.
           </p>
           <p className="text-white text-[1.875rem] leading-8 mb-[22px]">
             Tell me about your project.
           </p>
           <p className="text-[#a9adb8] mb-[22px] lg:pt-1 text-[1rem]">
-            Let's create something together 🤘
+            Let&apos;s create something together 🤘
           </p>
 
           <div className="flex mt-[1.375rem] items-center text-[#a9adb8] hovered ">

@@ -122,7 +122,7 @@ const Resume = () => {
                   <p className="text-[#ffc107] text-[24px] font-normal mb-[10px]">Mern Stack Developer</p>
                   <p className="text-[#a9adb8] text-[18px] mb-[10px]">2023 – continue </p>
                   <p className="text-[#fff] text-[20px] font-normal mb-[10px]">Genius Mind Zone </p>
-                  <p className="text-justify text-[#A9ADB8] leading-6">As a junior MERN stack developer, I've had the opportunity to actively contribute within the innovative realm of the Genius Mind Zone, collaborating on their projects to drive excellence and innovation. </p>
+                  <p className="text-justify text-[#A9ADB8] leading-6">As a junior MERN stack developer, I&apos;ve had the opportunity to actively contribute within the innovative realm of the Genius Mind Zone, collaborating on their projects to drive excellence and innovation. </p>
                 </motion.div>
               </div>
 

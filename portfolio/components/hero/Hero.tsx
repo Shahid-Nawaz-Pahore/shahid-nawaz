@@ -15,7 +15,7 @@ const Hero = () => {
       <div className='container mx-auto  lg:px-[6rem] xl:px-[10rem]  md:px-[3rem] px-[1rem]'>
         <div className='grid lg:grid-cols-2 grid-cols-1 pt-[6rem]'>
           <div>
-            <p className='text-[#FFC107] text-[2rem] pt-[0.5rem]'>Hello, I'm</p>
+            <p className='text-[#FFC107] text-[2rem] pt-[0.5rem]'>Hello, I&apos;m</p>
             <p className='text-7xl font-bold text-white leading-none'>Mr. Shahid</p>
             <p className='text-7xl font-bold text-white leading-none'>Nawaz</p>
             <span className='text-4xl text-white '>
