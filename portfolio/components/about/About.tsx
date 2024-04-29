@@ -19,9 +19,9 @@ const About = () => {
             <div>
               <p className='text-[#FFFFFF]'>
                 <Image
-                  src="/image1.jfif"
+                  src="/shahid.jpg"
                   width={400}
-                  height={400}
+                  height={300}
                   alt="Picture of the author"
                   style={{height:"600px",width:"85%",borderRadius:"4px"}}
                 />

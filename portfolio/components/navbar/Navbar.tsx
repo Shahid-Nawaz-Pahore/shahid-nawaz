@@ -12,14 +12,14 @@ const Navbar = () => {
   return (
     <nav className="bg-[#070E1B]">
       <div className="container mx-auto py-3  lg:px-[3rem] xl:px-[10rem] md:px-[3rem] px-[1rem]">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between ">
           <div className="flex-shrink-0">
             <Image
-              src="/faiza.png"
+              src="/name.jpg"
               width={140}
               height={90}
               alt="Picture of the author"
-              style={{ width: "270px", height: "150px" }}
+              style={{ width: "270px", height: "100px" }}
             />
 
 
