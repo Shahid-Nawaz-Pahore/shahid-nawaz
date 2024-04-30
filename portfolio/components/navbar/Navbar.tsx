@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between ">
           <div className="flex-shrink-0">
             <Image
-              src="/name.jpg"
+              src="/name-removebg-preview.png"
               width={140}
               height={90}
               alt="Picture of the author"
