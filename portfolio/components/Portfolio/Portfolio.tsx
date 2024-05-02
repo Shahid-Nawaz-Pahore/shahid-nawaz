@@ -30,6 +30,9 @@ const Portfolio = () => {
                                 alt="Picture of the author"
                                 className="transition-opacity duration-400 ease-in-out"
                             />
+                            <p className="text-[20px] font-bold text-center text-white pt-2 eight2">
+                                Generate Meme Coin
+                            </p>
                             <div className="absolute inset-0 bg-[#A2A5AA]  opacity-5 group-hover:opacity-50 transition-opacity duration-300 ease-in-out flex justify-center items-center">
                                 <div className="flex justify-center items-center h-screen ">
                                     <Link href={value.github} target="_blank" rel="noopener noreferrer">

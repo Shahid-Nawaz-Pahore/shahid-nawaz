@@ -54,24 +54,30 @@ const Contact = () => {
             Visite my social profile and get connected
           </p>
           <div className="flex mt-[1.375rem] items-center text-[#a9adb8] ">
+            <a href="https://www.linkedin.com/in/shahid-nawaz-962703241" target="_blank" rel="noopener noreferrer">
             <div className="border border-solid flex rounded-full border-[#3f4551] md:p-4 p-3 icon-container">
               <IoLogoLinkedin size={20} className="icon" />
               <span className="text-white mt-[-2px] md:pl-3 pl-1 text-hidden">
                 Linkedin
               </span>
             </div>
+              </a>
+              <a href="https://github.com/Shahid-Nawaz-Pahore" target="_blank" rel="noopener noreferrer">
             <div className="border ml-3 border-solid flex rounded-full border-[#3f4551] md:p-4 p-3 icon-container">
               <BsGithub size={20} className="" />
               <span className="text-white mt-[-2px] md:pl-3 pl-1 text-hidden">Github</span>
             </div>
+            </a>
             <div className="border ml-3 border-solid flex  rounded-full  border-[#3f4551] md:p-4 p-3 icon-container">
               <FaSkype size={20} className="" />
               <span className="text-white mt-[-2px] md:pl-3 pl-1 text-hidden">Skype</span>
             </div>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZqlsVkdrFqBbFLGGlcwgKRKZzKZgwhznWTfvcNgVgrFlCPKDDGdVnXnnJCXDjJNHvNkdC" target="_blank" rel="noopener noreferrer">
             <div className="border ml-3 border-solid rounded-full flex border-[#3f4551] md:p-4 p-3 icon-container">
               <TfiEmail size={20} className="" />
               <span className="text-white mt-[-2px] md:pl-3 pl-1 text-hidden">Email</span>
             </div>
+            </a>
           </div>
         </div>
       </div>

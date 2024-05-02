@@ -5,21 +5,9 @@ type A = {
 }
 const Portfoliodata:A[] = [
     {
-        img:"/screen.jpg",
-        github:"https://github.com/Faizi-Devops/Weather-App-in-java",
-        liveurl:"https://github.com/Faizi-Devops/Weather-App-in-java"
-    },
-    {
-        img:"/screen.jpg",
-        github:"https://github.com/Faizi-Devops/Weather-App-in-java",
-        liveurl:"https://github.com/Faizi-Devops/Weather-App-in-java"
-    },
-    {
-        img:"/screen.jpg",
-        github:"https://github.com/Faizi-Devops/Weather-App-in-java",
-        liveurl:"https://github.com/Faizi-Devops/Weather-App-in-java"
-    },
-    
-    
+        img:"/meme.png",
+        github:"https://github.com/Shahid-Nawaz-Pahore/meme-coin-generator",
+        liveurl:"https://meme-coin-generator-kappa.vercel.app"
+    },    
 ]
 export default Portfoliodata;
